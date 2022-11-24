@@ -2,4 +2,15 @@
 
 # Tool List
 - Get color of trace entity.
+- Get network ID and hammer ID of trace entity.
+- Get model and material of trace entity.
 - Get vector and eye angles of local player.
+- Get vector and angles of trace entity relative to world.
+- Get vector and angles of hit pos relative to trace entity.
+- Get class and name of trace entity.
+- Get velocity and angular velocity of trace entity.
+
+# Planned Tools
+- Find all entities of a specified class on the map.
+- Create a boundary and get the upper and lower values of it.
+

@@ -1,6 +1,6 @@
 ﻿namespace Sandbox.Tools
 {
-	[Library( "tool_getposlocal", Title = "Get Pos Relative To Trace Entity", Description = "Prints position and angles of target entity." )]
+	[Library( "tool_getposlocal", Title = "Get Pos Relative To Trace Entity", Description = "Prints position of your trace relative to the entity that the trace hit." )]
 	public partial class GetPosLocalTool : BaseTool
 	{
 		public override void Simulate()

@@ -9,8 +9,7 @@
 - Get vector and angles of hit pos relative to trace entity.
 - Get class and name of trace entity.
 - Get velocity and angular velocity of trace entity.
+- Create a boundary and get the upper and lower values of it.
 
 # Planned Tools
 - Find all entities of a specified class on the map.
-- Create a boundary and get the upper and lower values of it.
-

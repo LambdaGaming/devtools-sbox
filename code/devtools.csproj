@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<AssemblyName>development_tool_collection</AssemblyName>
-		<PackageId>development_tool_collection</PackageId>
-		<LangVersion>10</LangVersion>
+		<AssemblyName>devtools</AssemblyName>
+		<PackageId>devtools</PackageId>
+		<LangVersion>11</LangVersion>
 		<NoWarn>1701;1702;1591;</NoWarn>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<DefineConstants>SANDBOX;ADDON;DEBUG</DefineConstants>
@@ -29,7 +29,7 @@
 
   <PropertyGroup>
 	<OutputPath>..\..\../.vs/output/</OutputPath>
-	<DocumentationFile>..\..\../.vs/output/development_tool_collection.xml</DocumentationFile>
+	<DocumentationFile>..\..\../.vs/output/devtools.xml</DocumentationFile>
 	<RootNamespace>Sandbox</RootNamespace>
 	<Nullable>disable</Nullable>
   </PropertyGroup>
@@ -45,7 +45,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.10233.dll" />
+		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.11244.dll" />
 
   </ItemGroup>
 

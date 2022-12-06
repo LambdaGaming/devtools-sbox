@@ -2,7 +2,7 @@
   "Title": "Development Tool Collection",
   "Type": "addon",
   "Org": "local",
-  "Ident": "development_tool_collection",
+  "Ident": "devtools",
   "Tags": "",
   "Schema": 1,
   "HasAssets": true,

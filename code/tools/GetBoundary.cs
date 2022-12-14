@@ -13,14 +13,14 @@
 
 		public override void Simulate()
 		{
-			if ( Host.IsClient )
+			if ( Game.IsClient )
 			{
 				if ( NodesValid() )
 				{
 					DebugOverlay.Box( Node1.Position, Node2.Position, Color.Green );
 				}
 			}
-			else if ( Host.IsServer )
+			else if ( Game.IsServer )
 			{
 				using ( Prediction.Off() )
 				{

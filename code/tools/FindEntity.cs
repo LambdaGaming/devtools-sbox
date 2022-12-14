@@ -11,7 +11,7 @@ namespace Sandbox.Tools
 
 		public override void Simulate()
 		{
-			if ( !Host.IsServer ) return;
+			if ( !Game.IsServer ) return;
 
 			using ( Prediction.Off() )
 			{

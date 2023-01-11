@@ -1,4 +1,4 @@
-This is an addon for s&box that contains a collection of tools meant to be used in developement of addons for the Sandbox game, or other games that derive from Sandbox. Based off my [developement tool collection for Gmod.](https://github.com/LambdaGaming/devtools) Right now it includes all of the tools from the Gmod version, but suggestions for more are welcome!
+This is an addon for s&box that contains a collection of tools meant to be used in developement of addons for the Sandbox game, or other games that derive from Sandbox. Based off my [developement tool collection for Gmod.](https://github.com/LambdaGaming/devtools) Right now it includes all of the tools from the Gmod version, some of which are redundant in s&box and only serve as a proof of concept, but suggestions for more are welcome!
 
 # Tool List
 - Get color of trace entity.
@@ -14,4 +14,3 @@ This is an addon for s&box that contains a collection of tools meant to be used 
 
 # Server Commands
 - devtools_findent [class name] - Used for the Find Entity tool to enter the name of the entity you want to search for. This is only temporary until I can get a UI made for this tool.
-

@@ -10,12 +10,15 @@
   "ResourcePaths": null,
   "HasCode": true,
   "CodePath": "/code/",
+  "PackageReferences": [],
+  "EditorReferences": null,
   "Metadata": {
     "RenderMaxs": "0,0,0",
     "RenderMins": "0,0,0",
     "PhysicsMaxs": "0,0,0",
     "PhysicsMins": "0,0,0",
     "PrimaryAsset": "",
-    "ParentPackage": "facepunch.sandbox"
+    "ParentPackage": "facepunch.sandbox",
+    "CsProjName": ""
   }
 }

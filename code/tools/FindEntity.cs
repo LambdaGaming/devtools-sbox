@@ -15,9 +15,9 @@ namespace Sandbox.Tools
 
 			using ( Prediction.Off() )
 			{
-				if ( Input.Pressed( InputButton.PrimaryAttack ) )
+				if ( Input.Pressed( "attack1" ) )
 					TeleTo( true );
-				else if ( Input.Pressed( InputButton.SecondaryAttack ) )
+				else if ( Input.Pressed( "attack2" ) )
 					TeleTo( false );
 			}
 		}

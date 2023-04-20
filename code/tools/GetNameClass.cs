@@ -9,7 +9,7 @@
 
 			using ( Prediction.Off() )
 			{
-				if ( Input.Pressed( InputButton.PrimaryAttack ) )
+				if ( Input.Pressed( "attack1" ) )
 				{
 					TraceResult tr = DoTrace();
 					if ( tr.Hit && tr.Entity.IsValid() )
@@ -17,7 +17,7 @@
 						Log.Info( tr.Entity.Name );
 					}
 				}
-				else if ( Input.Pressed( InputButton.SecondaryAttack ) )
+				else if ( Input.Pressed( "attack2" ) )
 				{
 					TraceResult tr = DoTrace();
 					if ( tr.Hit && tr.Entity.IsValid() )

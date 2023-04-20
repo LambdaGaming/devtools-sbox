@@ -9,9 +9,9 @@
 
 			using ( Prediction.Off() )
 			{
-				if ( Input.Pressed( InputButton.PrimaryAttack ) )
+				if ( Input.Pressed( "attack1" ) )
 					Log.Info( Owner.Position );
-				else if ( Input.Pressed( InputButton.SecondaryAttack ) )
+				else if ( Input.Pressed( "attack2" ) )
 					Log.Info( Owner.EyeRotation.Angles() );
 			}
 		}

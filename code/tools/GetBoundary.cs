@@ -24,7 +24,7 @@
 			{
 				using ( Prediction.Off() )
 				{
-					if ( Input.Pressed( InputButton.PrimaryAttack ) && !NodesValid() )
+					if ( Input.Pressed( "attack1" ) && !NodesValid() )
 					{
 						TraceResult tr = DoTrace();
 						Node1 = new ModelEntity();
@@ -38,12 +38,12 @@
 						Node2.Scale = 0.1f;
 						Node2.SetupPhysicsFromModel( PhysicsMotionType.Dynamic );
 					}
-					else if ( Input.Pressed( InputButton.SecondaryAttack ) && NodesValid() )
+					else if ( Input.Pressed( "attack2" ) && NodesValid() )
 					{
 						Node1.Delete();
 						Node2.Delete();
 					}
-					else if ( Input.Pressed( InputButton.Reload ) && NodesValid() )
+					else if ( Input.Pressed( "reload" ) && NodesValid() )
 					{
 						Vector3 upper;
 						Vector3 lower;

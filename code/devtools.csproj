@@ -13,16 +13,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Update="**\*.scss" DependentUpon="%(Filename).cs" />
-		<None Update="**\*.css" DependentUpon="%(Filename).cs" />
-		<None Update="**\*.sass" DependentUpon="%(Filename).cs" />
-		<None Update="**\*.html" DependentUpon="%(Filename).cs" />
-		<None Update="**\*.htm" DependentUpon="%(Filename).cs" />
+		
+		<None Update="**\*.cs.scss" DependentUpon="%(Filename)" />
+		<Compile Update="**\*.razor.cs" DependentUpon="%(Filename)" />
+		<None Update="**\*.razor.scss" DependentUpon="%(Filename)" />
+
 	</ItemGroup>
 
 	<ItemGroup>
 	  <AdditionalFiles Include="**/*.razor" />
 	</ItemGroup>
+
 
 	<ItemGroup>
 		<Using Include="Sandbox.Internal.GlobalGameNamespace" Static="true" />
@@ -46,7 +47,8 @@
 	</ItemGroup>
 
   <ItemGroup>
-		<ProjectReference Include="I:\SteamLibrary\steamapps\common\sbox\addons\base\code\Base Library.csproj" />
+		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.30467.a14875ad62067ec2.dll" />
+		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.30467.a910a4618f39fc4f.dll" />
 
   </ItemGroup>
 

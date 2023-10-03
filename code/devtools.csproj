@@ -7,9 +7,12 @@
 		<PackageId>devtools</PackageId>
 		<LangVersion>11</LangVersion>
 		<NoWarn>1701;1702;1591;</NoWarn>
+		<WarningsAsErrors></WarningsAsErrors>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<DefineConstants>SANDBOX;ADDON;DEBUG</DefineConstants>
 		<AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+		<DefaultItemExcludes>$(DefaultItemExcludes);**\editor\**\*;**\unittest\**\*</DefaultItemExcludes>
+
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -21,8 +24,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AdditionalFiles Include="**/*.razor" />
+		<AdditionalFiles Include="**/*.razor" />
 	</ItemGroup>
+
 
 
 	<ItemGroup>
@@ -42,13 +46,12 @@
 		<Reference Include="..\..\..\bin\managed/Sandbox.Engine.dll" />
 		<Reference Include="..\..\..\bin\managed/Sandbox.Game.dll" />
 		<Reference Include="..\..\..\bin\managed/Sandbox.Event.dll" />
-		<Reference Include="..\..\..\bin\managed/Sandbox.Bind.dll" />
 		<Reference Include="..\..\..\bin\managed/Sandbox.Reflection.dll" />
 	</ItemGroup>
 
   <ItemGroup>
-		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.31205.72c9149ca7a298a2.dll" />
-		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.31205.75954d9393182ad5.dll" />
+		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.38284.63be6954256cb44c.dll" />
+		<Reference Include="I:\SteamLibrary\steamapps\common\sbox\.source2\references\facepunch.sandbox.38284.a733a283dc089f25.dll" />
 
   </ItemGroup>
 
